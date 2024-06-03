@@ -104,6 +104,8 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #000000;
     display: block; /* Asegúrate de que el span esté en una nueva línea */
+    text-align: left;
+    margin-left: -90%;
 }
 
 .header-txt span {
@@ -458,12 +460,6 @@ textarea {
     .menu label {
         display: initial;
     }
-    .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        
-    }
-    
     .menu .navbar {
         position: absolute;
         top: 100%;
@@ -471,7 +467,6 @@ textarea {
         right: 0;
         background-color: #50A6FF;
         display: none;
-        
     }
     .menu .navbar ul li {
         width: 100%;
@@ -487,35 +482,25 @@ textarea {
         display: none;
     }
     .header {
-        display: flex;
-        justify-content: flex-end; /* Alinear contenido a la derecha */
         min-height: 50vh;
-        padding: 100px 0 50px 0; /* Ajusta el padding según necesites */
+        /* padding: 100px 0 50px 350px; */
     }
     .header-content {
-        display: flex;
-        justify-content: flex-end; /* Alinear contenido a la derecha */
+        
         flex-direction: column;
-        text-align: right; /* Alinear el texto a la derecha */
+        text-align: center;
     }
     .header-txt {
         margin-bottom: 25px;
+        
     }
-    h1{
-        display: inline-block;
-        white-space: nowrap;
-        margin: 0 auto;
-        padding: 0; /* Asegúrate de que no hay padding innecesario */
+    .header-txt h1{
+        margin: 0px;
+        
     }
-    .header-txt h1 {
-        font-size: 110px;
-        letter-spacing: 5px;
-        text-transform: uppercase;
-        font-family: 'Bebas Neue', cursive;
-        color: #000000;
-        display: inline-block;
-        white-space: nowrap;
-        margin: 0;
+    .header-txt span{
+        margin: 0px;
+        
     }
 
     .welcome {
@@ -537,7 +522,7 @@ textarea {
     .welcome-2 {
         padding: 50px 20px;
     }
-    
+
     h2 {
         font-size: 48px;
         line-height: 60px;
@@ -665,8 +650,8 @@ textarea {
     }
 
     textarea {
-        width: 75% !important; /* Ajusta según necesites */
-    }
+        width: 75% !important; /* Ajusta según necesites */
+    }
 
 
 
