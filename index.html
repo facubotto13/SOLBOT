@@ -328,16 +328,19 @@
             Estamos para convertir tus ideas en realidad.
             ¡Contactate y hagamos magia juntos!
         </p>
-        <form>
+        <form action="https://formsubmit.co/facu-botto@outlook.com.ar" method="POST" />
             <div class="campo-1">
-                <input class= "campo" type="text" placeholder="Apellido y nombre">
-                <input class= "campo" type="" placeholder="Teléfono">
+                <input class= "campo" type="text" placeholder="Apellido y nombre" name="Nombre y Apellido">
+                <input class= "campo" type="" placeholder="Teléfono" name="Telefono">
             </div>
             <div class="campo-1">
-                <input class= "campo1" type="email" placeholder="Correo">
+                <input class= "campo1" type="email" placeholder="Correo" name="Email">
             </div>
-            <textarea class="campo" cols="30" rows="10" placeholder="Texto"></textarea>
+            <textarea class="campo" cols="30" rows="10" placeholder="Texto"name="Comments"></textarea>
             <input type="submit" value="Enviar" class="btn-1">
+            <input type="hidden" name="_next" value="https://solbot1.netlify.app/">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_cc" value="joaquin_sola@hotmail.com">
         </form>  
     </div>
     <div class="footer-txt">
