@@ -190,6 +190,8 @@ p {
 }
 
 .personal-1 img {
+    width: 260px; /* Ancho deseado */
+    height: 260px; /* Alto deseado */
     width: 100%;
     border-radius: 10px;
     margin-bottom: 10px;
