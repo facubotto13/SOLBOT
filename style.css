@@ -459,6 +459,15 @@ textarea {
     text-align: center;
 }
 
+.btn-wsp img{
+    position:fixed;
+    width:100px;
+    height:100px;
+    line-height: 63px;
+    bottom: -2px;
+    right:25px;
+}
+
 @media(max-width:991px) {
     .menu {
         padding: 20px;
@@ -668,6 +677,13 @@ textarea {
         width: 75% !important; /* Ajusta según necesites */
 }
 
+.btn-wsp img {
+    width: 75px;
+    height: 75px;
+    bottom: 0px;
+    right: -7px;
+    z-index: 9999;
+}
 
 
 }
