@@ -381,6 +381,10 @@ p {
     width: 300px;
 }
 
+.client-img1 img {
+    width: 331px;
+}
+
 .footer-bg {
     background-color: #323232;
     background-position: center center;
@@ -634,6 +638,12 @@ textarea {
 
     .client-img img {
         width: 100%; /* Ajustar el ancho de las imágenes */
+    }
+
+    .client-img1 img {
+        width: 100%; /* Ajustar el ancho de las imágenes */
+        height: 391px; /* Ajustar el alto de las imágenes */
+        object-fit: contain; /* La imagen se ajusta dentro del contenedor */
     }
 
     .footer-bg h2 {
