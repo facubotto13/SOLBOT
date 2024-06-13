@@ -39,6 +39,7 @@ body {
 .logo1 {
     display: inline-block;
     opacity: 0;
+    border-radius: 5rem;
 }
 
 .logo1.active{
@@ -52,25 +53,7 @@ body {
     opacity: 0;
     transition: ease-in-out 1s;
 }
-.logo2{
-    text-align: center;
-    position: relative;
-    display: inline-block;
-    bottom: -20px;
-    opacity: 0;
-}
 
-.logo2.active{
-    bottom: 0;
-    opacity: 1;
-    transition: ease-in-out 0.5s;
-}
-
-.logo2.fade{
-    
-    opacity: 0;
-    transition: ease-in-out 0.5s;
-}
 
 
 .container {
