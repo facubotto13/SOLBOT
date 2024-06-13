@@ -42,14 +42,18 @@ body {
     flex-direction: column;
 }
 
-.logo-group > div {
-    margin-bottom: 10px; /* Espacio entre las líneas */
-}
 
 .logo1 {
     display: inline-block;
     opacity: 0;
+    line-height: 0; /* Ajusta el espacio entre las líneas según sea necesario */
 }
+
+.smaller {
+    font-size: 2.3rem; /* Tamaño de letra más pequeño */
+}
+
+
 
 .logo1.active{
     bottom: 0;
