@@ -419,11 +419,11 @@ p {
 }
 
 .client-img img {
-    width: 300px;
+    width: 70%;
 }
 
 .client-img1 img {
-    width: 331px;
+    width: 70%;
 }
 
 .footer-bg {
@@ -688,12 +688,11 @@ textarea {
     }
 
     .client-img img {
-        width: 100%; /* Ajustar el ancho de las imágenes */
+        width: 60%; /* Ajustar el ancho de las imágenes */
     }
 
     .client-img1 img {
-        width: 100%; /* Ajustar el ancho de las imágenes */
-        height: 391px; /* Ajustar el alto de las imágenes */
+        width: 60%; /* Ajustar el ancho de las imágenes */
         object-fit: contain; /* La imagen se ajusta dentro del contenedor */
     }
 
